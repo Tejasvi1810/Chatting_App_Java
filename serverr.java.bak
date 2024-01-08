@@ -1,0 +1,21 @@
+package chatting.application;
+
+import javax.swing.*;
+public class servere extends JFrame
+{
+	serverr()
+	{
+		setLayout(null);
+		setSize(450,700);
+		setLocation(200,50);
+	    //getContentPane().setBackground(Color.WHITE);
+		
+		setVisible(true);
+	}
+
+
+public static void main(String args[])
+{
+	new serverr();
+}
+}
